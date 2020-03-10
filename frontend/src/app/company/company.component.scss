@@ -28,6 +28,30 @@
     border-bottom-color: lightgrey;
   }
 
+  .mat-header-cell, .mat-cell {
+    width : 20%;
+  }
+
+  .mat-header-cell {
+    font-size : 18px;
+    color : black;
+  }
+
   table {
     width: 100%;
   }
+
+  .display {
+    display: inline;
+    margin: 20px;
+  }
+
+  .heading{
+    font-size: 30px;    
+    margin: 20px;
+  }
+
+.search-field {
+  width: 25%;
+  font-size: 20px;
+}
