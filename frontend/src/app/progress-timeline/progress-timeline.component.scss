@@ -43,17 +43,11 @@ body{
     border-color:  #258CC7;
     transition: all 1000ms ease-in-out;
 }
-ul.tl li .item-title{
-}
 ul.tl li .item-detail{
     color:rgba(0,0,0,0.5);
     font-size:12px;
 }
 ul.tl li .timestamp{
     color: #8D8D8D;
-    position: absolute;
-  width:100px;
-    left: -50%;
-    text-align: right;
     font-size: 12px;
 }

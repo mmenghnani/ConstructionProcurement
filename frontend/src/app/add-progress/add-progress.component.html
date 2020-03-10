@@ -1,5 +1,7 @@
 <form name='certform' #signUpForm="ngForm" (ngSubmit)="signUpForm.valid && onSubmit(signUpForm)">
         <input type="text" #description="ngModel" [(ngModel)]="projectService.selectedProgress.description" name="description" placeholder="description" required  [ngClass]="{'invalid-textbox' :signUpForm.submitted && !description.valid }">
+        <textarea name="text" rows="10" cols="50" wrap="soft"> </textarea>
+
         <div *ngIf="signUpForm.submitted && !description.valid">
           <label class="validation-message">This field is required.</label>
         </div>
